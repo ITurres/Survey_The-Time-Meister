@@ -93,6 +93,7 @@ body {
     background-color: beige; 
     border: 1px solid beige;
     padding: 8px;
+    margin-left: 8px;
   }
   
   input[type="submit"] {
