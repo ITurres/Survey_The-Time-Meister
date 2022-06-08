@@ -24,11 +24,11 @@ body {
     padding-top: 20px;
     font-size: 2.2rem;
     font-weight: bold;
-    font-family: Ascender Serif WGL Bold Italic;
+    font-family: "Ascender Serif WGL Bold Italic";
   }
   .title-p {
     font-size: 16px;
-    font-family: Mein Schatz Regular;
+    font-family: "Mein Schatz Regular";
     padding-bottom: 20px;
   }
   
@@ -110,7 +110,7 @@ body {
     margin: 20px auto;
     height: 2em;
     font-size: 1.2rem;
-    font-family: Ascender Serif WGL Bold Italic;
+    font-family: "Ascender Serif WGL Bold Italic";
     font-weight: 550;
     background-color: beige;
     /* border-color: hsl(130,70%,20%, 100%); *//* leave border out for now*/
