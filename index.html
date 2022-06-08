@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html lang="en">
+  <meta chartset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Survey from The-Time-Meister</title>
+</head>
+<body>
+  <h1 id="title"><em>The Time Meister's</em> Survey</h1>
+  <p id="description" class="title-p">We will be happy to know how your purchased went and a bit of your love for watches</p>
+  <br/>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">Client's Name <input id="name" type="text" placeholder="Enter your Name" required/></label>
+      <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+      <label id="number-label">Age (optional)<input id="number" type="number" min="18" max="120" placeholder="Age"/></label>
+    </fieldset>
+    <fieldset>
+      <label>Store visited:
+   <select id="dropdown">
+   <option value="">Select store</option>
+   <option value-="1">Rotterdam</option>
+   <option value="2">Luzern</option>
+   <option value="3">Chicago</option>
+   <option value="4">London</option>
+   <option value="5">Beijing</option>
+   </select>
+ </label>
+    </fieldset>
+    <fieldset>
+      <p>Was the white glove service impeccable for you?</p>
+      <label><input type="radio" value="wG-control" name="white-glove-service" class="inline"/> Yes</label>
+      <label><input type="radio" value="wG-control" name="white-glove-service" class="inline"/> No</label>
+      <label><input type="radio" value="wG-control" name="white-glove-service" class="inline"/> Could be better</label>
+    </fieldset>
+    <fieldset>
+      <p>What do you most look for in a <i>Watch</i>?</p>
+      <label>
+    <input type="checkbox" name="watch-int" value="interests" class="inline"/> Made of Gold 
+  </label>
+      <label>
+    <input type="checkbox" name="watch-int" value="interests" class="inline"/> Made of Platinum
+  </label>
+      <label>
+    <input type="checkbox" name="watch-int" value="interests" class="inline"/> With Chrono
+  </label>
+      <label>
+    <input type="checkbox" name="watch-int" value="interests" class="inline"/> For Diving
+  </label>
+      <label>
+    <input type="checkbox" name="watch-int" value="interests" class="inline"/> All-Terrain
+  </label>
+      <label>
+    <input type="checkbox" name="watch-int" value="interests" class="inline"/> Gala
+  </label>
+    </fieldset>
+<fieldset>
+  <p>Any comments or suggestions?</p>
+    <textarea name="cmt-sug" rows="3" cols="20" placeholder="Enter your comment here"></textarea>
+</fieldset>
+<input id="submit" type="submit" value="Submit"/>
+  </form>
+</body>
+</html>
