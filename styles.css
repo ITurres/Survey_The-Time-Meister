@@ -93,7 +93,7 @@ body {
     /* min-width: 445px; and this to make it size fix. only will grow (when clickin adn dragging) in height */
     /*BUT: both properties above when page is being resize small, the textarea will keep its width and so will overflow
     the form container~~~~~~COMMENT THEM OUT*/
-    width: 100%; 
+    width: 96.5%; 
     /*SOLUTION: add the resize property with vertical value...*/
     resize: vertical !important; /*important so will keep it fix and wont rezise horizontally*/
     min-height: 125px;
