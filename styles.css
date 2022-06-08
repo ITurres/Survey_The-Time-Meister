@@ -94,6 +94,8 @@ body {
     /*BUT: both properties above when page is being resize small, the textarea will keep its width and so will overflow
     the form container~~~~~~COMMENT THEM OUT*/
     width: 100%; 
+    /*SOLUTION: add the resize property with vertical value...*/
+    resize: vertical !important; /*important so will keep it fix and wont rezise horizontally*/
     background-color: beige; 
     border: 1px solid beige;
     padding: 8px;
