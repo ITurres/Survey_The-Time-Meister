@@ -38,7 +38,6 @@ body {
     padding: 20px 20px 0px 20px;
     border: 0;
     background-color: hsl(130,20%,30%, 80%);
-    
   }
   
   fieldset p {
@@ -49,7 +48,6 @@ body {
   p {
     color: beige;
     font-size: 1.2rem;
-    
   }
   
   label {
@@ -77,6 +75,10 @@ body {
     margin: 0 0.5em 0 0;
     vertical-align: middle; 
   }
+
+  .comment {
+    padding-bottom: 20px;
+  }
   
   textarea {
     max-width: 405px; /*this will help so the text area dont continue growing outside the form width*/
@@ -84,7 +86,6 @@ body {
     background-color: beige; 
     border: 1px solid beige;
     padding: 8px;
-  
   }
   
   input[type="submit"] {
