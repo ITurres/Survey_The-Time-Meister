@@ -89,8 +89,10 @@ body {
   }
   
   textarea {
-    max-width: 445px; /*this will help so the text area dont continue growing outside the form width*/
-    min-width: 445px; /* and this to make it size fix. only will grow (when clickin adn dragging) in height */
+    /* max-width: 445px; this will help so the text area dont continue growing outside the form width */
+    /* min-width: 445px; and this to make it size fix. only will grow (when clickin adn dragging) in height */
+    /*BUT: both properties above when page is being resize small, the textarea will keep its width and so will overflow
+    the form container~~~~~~COMMENT THEM OUT*/
     width: 100%; 
     background-color: beige; 
     border: 1px solid beige;
