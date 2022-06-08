@@ -89,8 +89,9 @@ body {
   }
   
   textarea {
-    max-width: 405px; /*this will help so the text area dont continue growing outside the form width*/
-    width: 100%;
+    max-width: 445px; /*this will help so the text area dont continue growing outside the form width*/
+    min-width: 445px; /* and this to make it size fix. only will grow (when clickin adn dragging) in height */
+    width: 100%; 
     background-color: beige; 
     border: 1px solid beige;
     padding: 8px;
