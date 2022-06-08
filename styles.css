@@ -1,0 +1,112 @@
+body {
+    margin: 0 auto;
+    background-image: url(/watches-bakground.jpg);
+    /*url(https://swisswatches-magazine.com/wp-content/uploads/2021/11/Patek-Philippe-Nautilus-Collection-Year-2021-Ref-5711-5726-5712-5740-5990-5980.jpg);*/
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: Tahoma;
+  }
+  
+  h1, 
+  .title-p {
+    text-align: center;
+    color: beige;
+  }
+  
+  h1 {
+    padding-top: 20px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: Ascender Serif WGL Bold Italic;
+  }
+  .title-p {
+    font-size: 16px;
+    font-family: Mein Schatz Regular;
+  }
+  
+  form {
+    width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    margin: 0 auto;
+    padding: 20px 20px 0px 20px;
+    border: 0;
+    background-color: hsl(130,20%,30%, 80%);
+    
+  }
+  
+  fieldset p {
+      margin-left: 8px;
+  }
+  
+  fieldset label,
+  p {
+    color: beige;
+    font-size: 1.2rem;
+    
+  }
+  
+  label {
+    display: block;
+    margin: 0 0.5rem 0;
+  }
+  
+  input {
+    margin: 10px 0;
+    width: 100%;
+    min-height: 2rem;
+    background-color: beige;
+    border: 3px solid beige;
+  }
+  
+  #dropdown {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: beige;
+  }
+  
+  .inline {
+   width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle; 
+  }
+  
+  textarea {
+    max-width: 405px; /*this will help so the text area dont continue growing outside the form width*/
+    width: 100%;
+    background-color: beige; 
+    border: 1px solid beige;
+    padding: 8px;
+  
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    height: 2em;
+    font-size: 1.2rem;
+    font-family: Ascender Serif WGL Bold Italic;
+    font-weight: 550;
+    background-color: beige;
+    /* border-color: hsl(130,70%,20%, 100%); *//* leave border out for now*/
+    color: hsl(130,70%,20%, 100%);
+    min-width: 300px;
+  }
+  
+  #submit:hover {
+    background-color: rgb(233, 233, 184);
+  }
+  
+  
+  
+  
+  
+  
