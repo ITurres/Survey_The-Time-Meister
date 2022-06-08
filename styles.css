@@ -49,6 +49,7 @@ body {
   
   fieldset p {
       margin-left: 8px;
+      margin-bottom: 8px;
   }
   
   fieldset label,
