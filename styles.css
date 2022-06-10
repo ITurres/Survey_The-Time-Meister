@@ -128,3 +128,22 @@ body {
   #submit:hover {
     background-color: rgb(233, 233, 184);
   }
+
+  /*MEDIA QUERIES*/
+
+/*1st*/
+
+@media (max-width: 1024px) {
+   
+  form {
+    width: 60vw;
+      max-width: 800px;
+      min-width: 450px;
+      margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  .title-p {
+    font-size: 20px;
+  }
+}
