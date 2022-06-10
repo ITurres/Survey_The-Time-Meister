@@ -5,141 +5,144 @@
 }
 
 body {
-    margin: 0 auto;
-    background-image: url(images/watches-bakground.jpg);
-    /*url(https://swisswatches-magazine.com/wp-content/uploads/2021/11/Patek-Philippe-Nautilus-Collection-Year-2021-Ref-5711-5726-5712-5740-5990-5980.jpg);*/
-    background-position: left left; /* Background image is centered vertically and horizontally at all times (in this case to the left) */
-    background-repeat: no-repeat; /* Background image doesn't tile */
-    background-attachment: fixed; /* Background image is fixed in the viewport so that it doesn't move when
+  margin: 0 auto;
+  background-image: url(images/watches-bakground.jpg);
+  /*url(https://swisswatches-magazine.com/wp-content/uploads/2021/11/Patek-Philippe-Nautilus-Collection-Year-2021-Ref-5711-5726-5712-5740-5990-5980.jpg);*/
+  background-position: left left; /* Background image is centered vertically and horizontally at all times (in this case to the left) */
+  background-repeat: no-repeat; /* Background image doesn't tile */
+  background-attachment: fixed; /* Background image is fixed in the viewport so that it doesn't move when
     the content's height is greater than the image's height */
-    background-size: cover; /* This is what makes the background image rescale based
+  background-size: cover; /* This is what makes the background image rescale based
     on the container's size */
-    background-color: rgb(134, 89, 69); /* Set a background color that will be displayed
+  background-color: rgb(
+    134,
+    89,
+    69
+  ); /* Set a background color that will be displayed
     while the background image is loading */
-    width: 100%;
-    height: 100%;
-    font-family: Tahoma;
-  }
-  
-  h1, 
-  .title-p {
-    text-align: center;
-    color: beige;
-  }
-  
-  h1 {
-    padding-top: 40px;
-    font-size: 2.2rem;
-    font-weight: bold;
-    font-family: "Ascender Serif WGL Bold Italic";
-  }
-  .title-p {
-    font-size: 16px;
-    font-family: "Mein Schatz Regular";
-    padding-bottom: 20px;
-  }
-  
-  form {
-    width: 60vw;
-      max-width: 500px;
-      min-width: 300px;
-      margin: 0 auto;
-    padding-bottom: 2em;
-  }
-  
-  fieldset {
-    margin: 0 auto;
-    padding: 20px 20px 0px 20px;
-    border: 0;
-    background-color: hsl(130,20%,30%, 80%);
-  }
-  
-  fieldset p {
-      margin-left: 8px;
-      margin-bottom: 8px;
-  }
-  
-  fieldset label,
-  p {
-    color: beige;
-    font-size: 1.2rem;
-  }
-  
-  label {
-    display: block;
-    margin: 0 0.5rem 0;
-  }
-  
-  input {
-    margin: 10px 0;
-    width: 100%;
-    min-height: 2rem;
-    background-color: beige;
-    border: 3px solid beige;
-    padding: 5px 10px;
-  }
-  
-  #dropdown {
-    width: 100%;
-    margin-top: 10px;
-    padding: 5px;
-    background-color: beige;
-  }
-  
-  .inline {
-   width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle; 
-  }
+  width: 100%;
+  height: 100%;
+  font-family: Tahoma;
+}
 
-  .comment {
-    padding-bottom: 20px;
-  }
-  
-  textarea {
-    /* max-width: 445px; this will help so the text area dont continue growing outside the form width */
-    /* min-width: 445px; and this to make it size fix. only will grow (when clickin adn dragging) in height */
-    /*BUT: both properties above when page is being resize small, the textarea will keep its width and so will overflow
+h1,
+.title-p {
+  text-align: center;
+  color: beige;
+}
+
+h1 {
+  padding-top: 40px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: "Ascender Serif WGL Bold Italic";
+}
+.title-p {
+  font-size: 16px;
+  font-family: "Mein Schatz Regular";
+  padding-bottom: 20px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  margin: 0 auto;
+  padding: 20px 20px 0px 20px;
+  border: 0;
+  background-color: hsl(130, 20%, 30%, 80%);
+}
+
+fieldset p {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+fieldset label,
+p {
+  color: beige;
+  font-size: 1.2rem;
+}
+
+label {
+  display: block;
+  margin: 0 0.5rem 0;
+}
+
+input {
+  margin: 10px 0;
+  width: 100%;
+  min-height: 2rem;
+  background-color: beige;
+  border: 3px solid beige;
+  padding: 5px 10px;
+}
+
+#dropdown {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: beige;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.comment {
+  padding-bottom: 20px;
+}
+
+textarea {
+  /* max-width: 445px; this will help so the text area dont continue growing outside the form width */
+  /* min-width: 445px; and this to make it size fix. only will grow (when clickin adn dragging) in height */
+  /*BUT: both properties above when page is being resize small, the textarea will keep its width and so will overflow
     the form container~~~~~~COMMENT THEM OUT*/
-    width: 96.5%; 
-    /*SOLUTION: add the resize property with vertical value...*/
-    resize: vertical !important; /*important so will keep it fix and wont rezise horizontally*/
-    min-height: 125px;
-    background-color: beige; 
-    border: 1px solid beige;
-    padding: 8px;
-    margin-left: 8px;
-  }
-  
-  input[type="submit"] {
-    display: block;
-    width: 60%;
-    margin: 20px auto;
-    height: 2em;
-    font-size: 1.2rem;
-    font-family: "Ascender Serif WGL Bold Italic";
-    font-weight: 550;
-    background-color: beige;
-    /* border-color: hsl(130,70%,20%, 100%); *//* leave border out for now*/
-    color: hsl(130,70%,20%, 100%);
-    min-width: 300px;
-  }
-  
-  #submit:hover {
-    background-color: rgb(233, 233, 184);
-  }
+  width: 96.5%;
+  /*SOLUTION: add the resize property with vertical value...*/
+  resize: vertical !important; /*important so will keep it fix and wont rezise horizontally*/
+  min-height: 125px;
+  background-color: beige;
+  border: 1px solid beige;
+  padding: 8px;
+  margin-left: 8px;
+}
 
-  /*MEDIA QUERIES*/
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  height: 2em;
+  font-size: 1.2rem;
+  font-family: "Ascender Serif WGL Bold Italic";
+  font-weight: 550;
+  background-color: beige;
+  /* border-color: hsl(130,70%,20%, 100%); */ /* leave border out for now*/
+  color: hsl(130, 70%, 20%, 100%);
+  min-width: 300px;
+}
+
+#submit:hover {
+  background-color: rgb(233, 233, 184);
+}
+
+/*MEDIA QUERIES*/
 
 /*1st*/
 
 @media (max-width: 1024px) {
-   
   form {
     width: 60vw;
-      max-width: 800px;
-      min-width: 450px;
-      margin: 0 auto;
+    max-width: 800px;
+    min-width: 450px;
+    margin: 0 auto;
     padding-bottom: 2em;
   }
 
@@ -148,24 +151,23 @@ body {
   }
 }
 
- /*2nd*/
+/*2nd*/
 
- @media (max-width: 768px) {
-  
+@media (max-width: 768px) {
   form {
     width: 60vw;
-      max-width: 800px;
-      min-width: 450px;
+    max-width: 800px;
+    min-width: 450px;
   }
 
   .title-p {
     font-size: 18px;
   }
 
-  input::placeholder, 
+  input::placeholder,
   #dropdown,
   textarea {
-   font-size: 16px;
+    font-size: 16px;
   }
 
   input[type="submit"] {
@@ -176,12 +178,11 @@ body {
 /*3rd*/
 
 @media (max-width: 480px) {
-
   form {
     width: 60vw;
-      max-width: 400px;
-      min-width: 330px;
-      margin: 0 auto;
+    max-width: 400px;
+    min-width: 330px;
+    margin: 0 auto;
     padding-bottom: 2em;
   }
 
@@ -201,11 +202,10 @@ body {
 
 /*4th*/
 
-@media (max-width: 360px ) {
-
+@media (max-width: 360px) {
   form {
     width: 60vw;
-      min-width: 250px;    
+    min-width: 250px;
   }
 
   fieldset.comment {
