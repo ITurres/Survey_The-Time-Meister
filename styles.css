@@ -198,3 +198,21 @@ body {
     min-width: 225px;
   }
 }
+
+/*4th*/
+
+@media (max-width: 360px ) {
+
+  form {
+    width: 60vw;
+      min-width: 250px;    
+  }
+
+  fieldset.comment {
+    padding-right: 30px;
+  }
+
+  input[type="submit"] {
+    min-width: 175px;
+  }
+}
