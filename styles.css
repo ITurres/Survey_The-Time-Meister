@@ -8,7 +8,7 @@ body {
   margin: 0 auto;
   background-image: url(images/watches-bakground.jpg);
   /*url(https://swisswatches-magazine.com/wp-content/uploads/2021/11/Patek-Philippe-Nautilus-Collection-Year-2021-Ref-5711-5726-5712-5740-5990-5980.jpg);*/
-  background-position: left left; /* Background image is centered vertically and horizontally at all times (in this case to the left) */
+  background-position: left; /* Background image is centered vertically and horizontally at all times (in this case to the left) */
   background-repeat: no-repeat; /* Background image doesn't tile */
   background-attachment: fixed; /* Background image is fixed in the viewport so that it doesn't move when
     the content's height is greater than the image's height */
